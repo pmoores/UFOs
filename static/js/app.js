@@ -23,3 +23,27 @@ function buildtTable(data) {
     );
 });
 }
+
+// 11.5.3. Create a function to handle actions after an input is given
+// e.g. filtering the table by date
+function handleClick() {
+    let date = d3.select("datetime").property("value");
+    let filteredData = tableData;
+   
+
+    // 11.5.4. Check if a date was entered and filter the date using this date
+    if (date) {
+        // Apply 'filter' to the table to keep only the rows where the
+        // 'datetime' value matches the filter value
+        filteredData = filteredData.filter(row => row.datetime === date); 
+    }
+  
+    // Rebuild the table using the filtered data
+    buildTable(filteredData);
+}
+
+// Attach an event to listen for the form button
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Build the table when the page loads
+buildTable(tableData);
