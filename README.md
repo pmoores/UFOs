@@ -14,7 +14,7 @@ To allow users of Dana's UFO sightings website to filter by multiple criteria at
 ## Summary
 - One drawback of the new design is that search terms must be entered exactly for the filters to work. For example, entering "california" in the state search box will not return the correct results ("ca" must be used).
 
-- Two recommendations for further development: (1) Change search filters to allow for other terms for the same thing (e.g. entering "california" or "ca" in the State search box would show results for California. (2) Add an additional filter to search through the Comments data.
+- Two recommendations for further development: (1) Change search filters to allow for other terms for the same thing (e.g. entering "california" or "ca" in the State search box would show results for California). (2) Add an additional filter to search through the Comments data.
 
 
 ## Attachments
