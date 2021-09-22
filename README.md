@@ -1,11 +1,11 @@
 # Module 11 Challenge - UFO Sightings
 
 ## Project Overview
-Tasked with providing a more in-depth analysis of UFO sightings on Dana's website by allowing users to filter for multiple criteria at the same time. In addition to the date, table filters will added for for the city, state, country, and shape.
+To allow users of Dana's UFO sightings website to filter by multiple criteria at the same time. In addition to the date, table filters were added for for the city, state, country, and shape.
 
 
 ## Results
-- The new webpage can now be filtered by the date of the sighting, as well as the city, state, country and shape of sighted object: [Example Filtered by Shape](https://github.com/pmoores/surfs_up/blob/main/hawaii.sqlite).
+- The new webpage can now be filtered by the date of the sighting, as well as the city, state, country and shape of sighted object: [Example Filtered by Shape](https://github.com/pmoores/UFOs/blob/main/static/images/Single%20Filter.png).
 
 - The webpage can also be filtered by multiple criteria: [Example Filtered by City and Shape](https://github.com/pmoores/surfs_up/blob/main/hawaii.sqlite).
 
